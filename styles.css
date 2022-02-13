@@ -20,3 +20,7 @@ body{
         height: auto;
     }
 }
+
+.product-listings-book{
+    display: flex;
+}
