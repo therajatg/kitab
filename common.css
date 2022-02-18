@@ -1,0 +1,40 @@
+:root{
+    --no-padding: 0;
+    --no-margin: 0;
+    --nav-footer-text-color: #1E1E1C;
+    --primary-color-text-background: #F9FAFB;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--primary-color-text-background);
+}
+
+.ecom-navigation-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--nav-footer-text-color);
+    padding: 0 1rem;
+}
+
+.ecom-nav-logo{
+    font-family: var(--stylish-font);
+    margin: var(--no-margin);
+    font-size: 2rem;
+    color: var(--primary-color-text-background);
+}
+
+.ecom-nav-links{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.fa-cart-shopping, .fa-heart{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.ecom-nav-links>a{
+    color: var(--primary-color-text-background);
+}

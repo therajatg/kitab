@@ -4,21 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product-Listing</title>
+    <title>products-Kitab</title>
     <link rel="stylesheet" href="https://parts-builder.netlify.app/styles/main-style.css">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/common.css">
+    <link rel="stylesheet" href="/styles/product-listing.css">
 </head>
 <body>
-    <nav class="navigation-container">
-        <h2><a class="nav-logo" href="https://github.com/therajatg/parts">Kitab</a></h2>
-        <div class="nav-links">
-            <span><a href="docs/product-listings.html" class="nav-home">Explore</a></span>
-            <span><a href="#" class="nav-about">Signup</a></span>
-            <span><a href="#" class="nav-services">Login</a></span>
+    <nav class="ecom-navigation-container">
+        <a class="ecom-nav-logo" href="/docs/product-listing.html">Kitab</a>
+        <div class="ecom-nav-links">
+            <div>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div>
+                <a href="wish-list.html"><i class="fa-solid fa-heart"></i></a>
+            </div>
+            <a href="/docs/product-listing.html" class="ecom-nav-first-link">Explore</a>
+            <a href="signup.html" class="ecom-nav-second-link">Signup</a>
+            <a href="login.html" class="ecom-nav-third-link">Login</a>
         </div>
     </nav>
 
-    <div class="product-listings-book">
+    <div class="ecom-filter-bar">
+        <a href="#">Categories</a>
+        <a href="#">Authors</a>
+        <a href="#">Languages</a>
+        <a href="#">Price</a>
+        <a href="#">Sort by</a>
+    </div>
+    <div class="ecom-search">
+        <input type="text" placeholder="Search..">
+        <button class="ecom-search-btn">Search</button>
+    </div>
+    <p class="ecom-type-selected font-size-xl">Editor's Choice</p>
+
+    <!-- In order to have all cards of same height maybe I have to give max-height to img in card or search if there's any other way in grids. -->
+
+    <div class="ecom-product-listing">
         <div class="card-container vertical-card">
             <img src="/pics/action-and-adventure/1.jpg">
             <div>
@@ -56,7 +78,7 @@
             </div>
         </div>
         <div class="card-container vertical-card">
-            <img src="/pics/action-and-adventure/4.jpg">
+            <img src="/pics/action-and-adventure/5.jpg">
             <div>
                 <h2>Woodland Shoes</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae dolor ut reprehenderit</p>
@@ -68,19 +90,19 @@
             </div>
         </div>
         <div class="card-container vertical-card">
-            <img src="/pics/action-and-adventure/5.webp">
+            <img src="/pics/action-and-adventure/6.jpg">
             <div>
                 <h2>Woodland Shoes</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae dolor ut reprehenderit</p>
                 <h2>₹ 4999</h2>
             </div>
+            <div class="cta">
+                <a href="#" class="button-contained add-to-cart-button"><i class="fa-solid fa-cart-arrow-down"></i>Add To Cart</a>
+                <a href="#"class="button-contained delete-button"></i>Buy Now</a>
+            </div>
         </div>
     </div>
     
-        <div class="cta">
-            <a href="#" class="button-contained add-to-cart-button"><i class="fa-solid fa-cart-arrow-down"></i>Add To Cart</a>
-            <a href="#"class="button-contained delete-button"></i>Buy Now</a>
-        </div>
-    </div>
+    <script src="https://kit.fontawesome.com/44c4f0d450.js" crossorigin="anonymous"></script>
 </body>
 </html>

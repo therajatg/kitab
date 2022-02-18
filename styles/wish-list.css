@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.ecom-horizontal-card{
+    max-height: 35vh;
+    width: 60vw;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.wishlist-product-image{
+    height: 80%;
+    align-self: center;
+    object-fit: cover;
+}
+
+.ecom-wishlist-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.ecom-horizontal-card-text{
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+.button-contained{
+    background-color: var(--nav-footer-text-color);
+}
+
