@@ -22,7 +22,7 @@ body{
 .ecom-wishlist-btn{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     width: 20%;
 }
 
@@ -33,11 +33,6 @@ body{
 
 .button-contained{
     background-color: var(--nav-footer-text-color);
-}
-
-.list-horizontal{
-    justify-content: flex-start;
-    width: auto;
 }
 
 .font-size-xl{
