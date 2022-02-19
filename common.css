@@ -1,19 +1,19 @@
 :root{
     --no-padding: 0;
     --no-margin: 0;
-    --nav-footer-text-color: #1E1E1C;
-    --primary-color-text-background: #F9FAFB;
+    --ecom-primary-color: #F9FAFB;
+    --ecom-secondary-color: #1E1E1C;
 }
 
 body{
     height: 100vh;
-    background-color: var(--primary-color-text-background);
+    background-color: var(--ecom-primary-color);
 }
 
 .ecom-navigation-container{
     display: flex;
     justify-content: space-between;
-    background-color: var(--nav-footer-text-color);
+    background-color: var(--ecom-secondary-color);
     padding: 0 1rem;
 }
 
@@ -21,7 +21,7 @@ body{
     font-family: var(--stylish-font);
     margin: var(--no-margin);
     font-size: 2rem;
-    color: var(--primary-color-text-background);
+    color: var(--ecom-primary-color);
 }
 
 .ecom-nav-links{
@@ -31,16 +31,16 @@ body{
 }
 
 .fa-cart-shopping, .fa-heart{
-    color: var(--primary-color-text-background);
+    color: var(--ecom-primary-color);
     font-size: 1.3rem;
 }
 
 .ecom-nav-links>a{
-    color: var(--primary-color-text-background);
+    color: var(--ecom-primary-color);
 }
 
 .footer{
-    background-color: var(--nav-footer-text-color);
+    background-color: var(--ecom-secondary-color);
     flex-direction: row;
     justify-content: space-around;
     padding: 1rem;
@@ -48,5 +48,5 @@ body{
 }
 
 .footer a{
-    color: var(--primary-color-text-background);
+    color: var(--ecom-primary-color);
 }

@@ -37,7 +37,7 @@ body{
 }
 
 .button-contained{
-    background-color: var(--nav-footer-text-color);
+    background-color: var(--ecom-secondary-color);
     margin-left: 49vw;
     padding: 1rem 2rem;
     margin-top: 1rem;

@@ -35,7 +35,7 @@ body{
 }
 
 .button-contained{
-    background-color: var(--nav-footer-text-color);
+    background-color: var(--ecom-secondary-color);
 }
 
 .list-horizontal{
@@ -47,7 +47,3 @@ body{
     align-self: center;
 }
 
-hr{
-    height: 2px;
-    color: black;
-}

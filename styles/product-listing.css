@@ -7,7 +7,7 @@ a{
 }
 
 .ecom-filter-bar a{
-    color: var(--nav-footer-text-color);
+    color: var(--ecom-secondary-color);
 }
 
 .icon-badge{
@@ -47,6 +47,7 @@ a{
 
 .card-container{
     border: none;
+    box-shadow: 5px 5px 10px grey;    
 }
 
 .ecom-dropdown1, .ecom-dropdown2, .ecom-dropdown3 , .ecom-dropdown4, .ecom-dropdown5{
@@ -93,16 +94,11 @@ a{
 }
 
 .button-contained{
-    /* background-color: var(--add-to-cart-btn-color); */
-    background-color: var(--nav-footer-text-color);
+    background-color: var(--ecom-secondary-color);
 }
 
 .cta{
     justify-content: space-between;
-}
-
-.card-container{
-    box-shadow: 5px 5px 10px grey;    
 }
 
 .card-container>img{
