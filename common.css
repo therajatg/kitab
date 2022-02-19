@@ -31,10 +31,22 @@ body{
 }
 
 .fa-cart-shopping, .fa-heart{
-    color: white;
+    color: var(--primary-color-text-background);
     font-size: 1.3rem;
 }
 
 .ecom-nav-links>a{
+    color: var(--primary-color-text-background);
+}
+
+.footer{
+    background-color: var(--nav-footer-text-color);
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.footer a{
     color: var(--primary-color-text-background);
 }

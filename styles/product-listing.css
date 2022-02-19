@@ -3,8 +3,11 @@ body{
 }
 
 a{
-    color: var(--nav-footer-text-color);
     display: block;
+}
+
+.ecom-filter-bar a{
+    color: var(--nav-footer-text-color);
 }
 
 .icon-badge{

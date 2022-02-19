@@ -4,6 +4,17 @@ body{
     row-gap: 4rem;
 }
 
+.ecom-cart-div{
+    display: flex;   
+    margin: 0 1rem 0 3rem;
+}
+
+.ecom-cart-items-div{
+    width: 100%;
+
+}
+
+
 .ecom-horizontal-card{
     max-height: 35vh;
     width: 60vw;
@@ -14,27 +25,32 @@ body{
 }
 
 .wishlist-product-image{
-    height: 80%;
+    height: 10rem;
     align-self: center;
     object-fit: cover;
-}
-
-.ecom-wishlist-btn{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 20%;
 }
 
 .ecom-horizontal-card-text{
     word-wrap: break-word;
     overflow: auto;
+    margin-left: 1rem;
 }
 
 .button-contained{
     background-color: var(--nav-footer-text-color);
+    margin-left: 49vw;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
 }
 
 .font-size-xl{
     align-self: center;
+}
+
+.ecom-horizontal-card{
+    justify-content: space-between;
+}
+
+.price-table{
+    box-shadow: 5px 5px 10px grey; 
 }

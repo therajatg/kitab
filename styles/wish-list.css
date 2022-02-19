@@ -26,9 +26,12 @@ body{
     width: 20%;
 }
 
+/* If we don't give margin-left and reduce width, the text is touching the image  */
+
 .ecom-horizontal-card-text{
     word-wrap: break-word;
     overflow: auto;
+    margin-left: 1rem;
 }
 
 .button-contained{
@@ -42,4 +45,9 @@ body{
 
 .font-size-xl{
     align-self: center;
+}
+
+hr{
+    height: 2px;
+    color: black;
 }

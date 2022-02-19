@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
     <title>Shopping Cart-Kitab</title>
     <link rel="stylesheet" href="https://parts-builder.netlify.app/styles/main-style.css">
     <link rel="stylesheet" href="/common.css">
-    <link rel="stylesheet" href="/styles/wish-list.css">
+    <link rel="stylesheet" href="/styles/cart.css">
 </head>
+
 <body>
     <nav class="ecom-navigation-container">
         <a class="ecom-nav-logo" href="/docs/product-listing.html">Kitab</a>
@@ -25,70 +27,87 @@
         </div>
     </nav>
 
-    <p class="font-size-xl">My Cart</p>
-    <div class="ecom-horizontal-card">
-        <img class="wishlist-product-image" src="/pics/action-and-adventure/2.jpg">
-        <div class="ecom-horizontal-card-text">
-            <h2>Woodland Shoes</h2>
-            <ul class="list-horizontal rating-star-color">
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-regular fa-star-half-stroke"></i></li>
-            </ul>
-            <h2>₹ 4999</h2>
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div class="ecom-cart-div">
+        <div class="ecom-cart-items-div">
+            <p class="font-size-xl">My Cart</p>
+            <div class="ecom-horizontal-card">
+                <img class="wishlist-product-image" src="/pics/action-and-adventure/2.jpg">
+                <div class="ecom-horizontal-card-text">
+                    <h2>Harry Potter And The Deathly Hallows</h2>
+                    <!-- When I use ul instead of list the starts leave some gap on left. -->
+                    <div class="list-horizontal rating-star-color">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                    </div>
+                    <h2>₹ 4999</h2>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                </div>
+                <div>
+                    Delivery by Thu Feb 24
+                </div>
+            </div>
+
+            <div class="ecom-horizontal-card">
+                <img class="wishlist-product-image" src="/pics/action-and-adventure/2.jpg">
+                <div class="ecom-horizontal-card-text">
+                    <h2>Harry Potter And The Deathly Hallows</h2>
+                    <div class="list-horizontal rating-star-color">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                    </div>
+                    <h2>₹ 4999</h2>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                </div>
+                <div>
+                    Delivery by Mon Feb 28
+                </div>
+            </div>
+
+            <div class="ecom-horizontal-card gg">
+                <button class="button-contained">PLACE ORDER</button>
             </div>
         </div>
-        <div class="ecom-wishlist-btn">
-            Delivery by Thu Feb 24 
+        <div>
+            <h3>PRICE DETAILS</h3>
+            <table class="price-table">
+                <tr>
+                    <td>Price (2 items)</td>
+                    <td>₹2400</td>
+                </tr>
+                <tr>
+                    <td>Discount</td>
+                    <td>₹-1300</td>
+                </tr>
+                <tr>
+                    <td>Delivery Charges</td>
+                    <td>FREE</td>
+                </tr>
+                <tr>
+                    <td>Total Amount</td>
+                    <td>₹1100</td>
+                </tr>
+            </table>
+
+            <p>You will save ₹1300 on this order.</p>
+
         </div>
     </div>
-
-    <div class="ecom-horizontal-card">
-        <img class="wishlist-product-image" src="/pics/action-and-adventure/2.jpg">
-        <div class="ecom-horizontal-card-text">
-            <h2>Woodland Shoes</h2>
-            <ul class="list-horizontal rating-star-color">
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-regular fa-star-half-stroke"></i></li>
-            </ul>
-            <h2>₹ 4999</h2>
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </div>
-        </div>
-        <div class="ecom-wishlist-btn">
-            Delivery by Mon Feb 28 
-        </div>
-    </div>
-
-    <div class="ecom-horizontal-card">
-        <img class="wishlist-product-image" src="/pics/action-and-adventure/2.jpg">
-        <div class="ecom-horizontal-card-text">
-            <h2>Woodland Shoes</h2>
-            <ul class="list-horizontal rating-star-color">
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-solid fa-star"></i></li>
-                <li><i class="fa-regular fa-star-half-stroke"></i></li>
-            </ul>
-            <h2>₹ 4999</h2>
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </div>
-        </div>
-        <div class="ecom-wishlist-btn">
-            <a href="#" class="button-contained add-to-cart-button"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
-            <a href="#"class="button-contained delete-button"><i class="fa-solid fa-trash"></i>Delete</a>
-        </div>
+    <div class="footer">
+        <a href="#">Privacy Policy</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
     </div>
     <script src="https://kit.fontawesome.com/44c4f0d450.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
