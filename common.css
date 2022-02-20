@@ -1,19 +1,19 @@
 :root{
     --no-padding: 0;
     --no-margin: 0;
-    --ecom-primary-color: #F9FAFB;
-    --ecom-secondary-color: #1E1E1C;
+    --secondary-color: #F9FAFB;
+    --primary-color: #1E1E1C;
 }
 
 body{
     height: 100vh;
-    background-color: var(--ecom-primary-color);
+    background-color: var(--secondary-color);
 }
 
 .ecom-navigation-container{
     display: flex;
     justify-content: space-between;
-    background-color: var(--ecom-secondary-color);
+    background-color: var(--primary-color);
     padding: 0 1rem;
 }
 
@@ -21,7 +21,7 @@ body{
     font-family: var(--stylish-font);
     margin: var(--no-margin);
     font-size: 2rem;
-    color: var(--ecom-primary-color);
+    color: var(--secondary-color);
 }
 
 .ecom-nav-links{
@@ -31,16 +31,16 @@ body{
 }
 
 .fa-cart-shopping, .fa-heart{
-    color: var(--ecom-primary-color);
+    color: var(--secondary-color);
     font-size: 1.3rem;
 }
 
 .ecom-nav-links>a{
-    color: var(--ecom-primary-color);
+    color: var(--secondary-color);
 }
 
 .footer{
-    background-color: var(--ecom-secondary-color);
+    background-color: var(--primary-color);
     flex-direction: row;
     justify-content: space-around;
     padding: 1rem;
@@ -48,5 +48,5 @@ body{
 }
 
 .footer a{
-    color: var(--ecom-primary-color);
+    color: var(--secondary-color);
 }
