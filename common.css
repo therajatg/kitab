@@ -1,8 +1,8 @@
 :root{
     --no-padding: 0;
     --no-margin: 0;
-    --secondary-color: #F9FAFB;
     --primary-color: #1E1E1C;
+    --secondary-color: #F9FAFB;
 }
 
 body{
