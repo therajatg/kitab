@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+
+.ecom-cart-div{
+    display: flex;   
+    margin: 0 1rem 0 3rem;
+}
+
+.ecom-cart-items-div{
+    width: 100%;
+
+}
+
+
+.ecom-horizontal-card{
+    max-height: 35vh;
+    width: 60vw;
+    display: flex;
+    box-shadow: 5px 5px 10px grey;    
+    justify-content: space-around;
+    align-self: center;
+}
+
+
+.cart-product-image{
+    height: 10rem;
+    align-self: center;
+    object-fit: cover;
+}
+
+.ecom-horizontal-card-text{
+    word-wrap: break-word;
+    overflow: auto;
+    margin-left: 1rem;
+}
+
+/* .list-horizontal{
+    justify-content: flex-start;
+    width: auto;
+} */
+
+.btn-cart{
+    background-color: var(--primary-color);
+    margin-left: 49vw;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.font-size-xl{
+    align-self: center;
+}
+
+.ecom-horizontal-card{
+    justify-content: space-between;
+}
+
+.price-table{
+    box-shadow: 5px 5px 10px grey; 
+}
