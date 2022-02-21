@@ -17,7 +17,6 @@ body{
     max-height: 35vh;
     width: 60vw;
     display: flex;
-    box-shadow: 5px 5px 10px grey;    
     justify-content: space-around;
     align-self: center;
     margin-bottom: 2rem;
@@ -48,8 +47,4 @@ body{
 
 .ecom-horizontal-card{
     justify-content: space-between;
-}
-
-.price-table{
-    box-shadow: 5px 5px 10px grey; 
 }
