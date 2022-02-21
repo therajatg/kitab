@@ -4,30 +4,28 @@ body{
     row-gap: 4rem;
 }
 
-.ecom-cart-div{
-    display: flex;   
-    margin: 0 1rem 0 3rem;
-}
-
-.ecom-cart-items-div{
-    width: 100%;
-}
-
 .ecom-horizontal-card{
     max-height: 35vh;
     width: 60vw;
     display: flex;
-    box-shadow: 5px 5px 10px grey;    
     justify-content: space-around;
     align-self: center;
-    margin-bottom: 2rem;
 }
 
-.cart-product-image{
-    height: 10rem;
+.wishlist-product-image{
+    height: 80%;
     align-self: center;
     object-fit: cover;
 }
+
+.ecom-wishlist-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+}
+
+/* If we don't give margin-left and reduce width, the text is touching the image  */
 
 .ecom-horizontal-card-text{
     word-wrap: break-word;
@@ -35,21 +33,11 @@ body{
     margin-left: 1rem;
 }
 
-.btn-cart{
+.button-contained{
     background-color: var(--primary-color);
-    margin-left: 49vw;
-    padding: 1rem 2rem;
-    margin-top: 1rem;
 }
 
 .font-size-xl{
     align-self: center;
 }
 
-.ecom-horizontal-card{
-    justify-content: space-between;
-}
-
-.price-table{
-    box-shadow: 5px 5px 10px grey; 
-}

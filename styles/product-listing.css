@@ -48,7 +48,6 @@ a{
 
 .card-container{
     border: none;
-    box-shadow: 5px 5px 10px grey;    
     justify-content: space-between;
 }
 
@@ -61,7 +60,7 @@ a{
     display: none;
     line-height: 2.5rem;
     background-color: white;
-    box-shadow: 5px 5px 10px grey;      
+    box-shadow: var(--default-box-shadow)    
 }
 
 .ecom-dropdown1:hover .ecom-dropdown-content1{
@@ -93,7 +92,6 @@ a{
 .card-container>img{
     height: 20rem;
     width: 100%;
-    /* object-fit: contain; */
 }
 
 .list-horizontal{
