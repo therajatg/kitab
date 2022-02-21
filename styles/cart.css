@@ -11,9 +11,7 @@ body{
 
 .ecom-cart-items-div{
     width: 100%;
-
 }
-
 
 .ecom-horizontal-card{
     max-height: 35vh;
@@ -22,8 +20,8 @@ body{
     box-shadow: 5px 5px 10px grey;    
     justify-content: space-around;
     align-self: center;
+    margin-bottom: 2rem;
 }
-
 
 .cart-product-image{
     height: 10rem;
@@ -36,11 +34,6 @@ body{
     overflow: auto;
     margin-left: 1rem;
 }
-
-/* .list-horizontal{
-    justify-content: flex-start;
-    width: auto;
-} */
 
 .btn-cart{
     background-color: var(--primary-color);
@@ -59,4 +52,8 @@ body{
 
 .price-table{
     box-shadow: 5px 5px 10px grey; 
+}
+
+.list-horizontal{
+    max-width: 30%;
 }
