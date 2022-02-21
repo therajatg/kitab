@@ -3,6 +3,7 @@
     --no-margin: 0;
     --primary-color: #1E1E1C;
     --secondary-color: #F9FAFB;
+    --default-box-shadow: 5px 5px 10px grey; 
 }
 
 body{
@@ -22,6 +23,10 @@ body{
     margin: var(--no-margin);
     font-size: 2rem;
     color: var(--secondary-color);
+}
+
+.default-box-shadow{
+    box-shadow: var(--default-box-shadow);
 }
 
 .ecom-nav-links{
