@@ -1,5 +1,6 @@
-body{
+.product-listing-body{
     display: flex;
+    row-gap: 0;
 }
 
 a{
@@ -48,6 +49,7 @@ a{
 .card-container{
     border: none;
     box-shadow: 5px 5px 10px grey;    
+    justify-content: space-between;
 }
 
 .ecom-dropdown1, .ecom-dropdown2, .ecom-dropdown3 , .ecom-dropdown4, .ecom-dropdown5{
@@ -88,19 +90,16 @@ a{
     text-decoration: none;
 }
 
+.card-container>img{
+    height: 20rem;
+    width: 100%;
+    /* object-fit: contain; */
+}
+
 .list-horizontal{
-    justify-content: flex-start;
-    width: auto;
+    width: 100%; 
 }
 
 .button-contained{
-    background-color: var(--primray-color);
-}
-
-.cta{
-    justify-content: space-between;
-}
-
-.card-container>img{
-    height: 20rem;
+    margin: 0;
 }

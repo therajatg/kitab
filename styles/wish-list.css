@@ -38,11 +38,6 @@ body{
     background-color: var(--primary-color);
 }
 
-.list-horizontal{
-    justify-content: flex-start;
-    width: auto;
-}
-
 .font-size-xl{
     align-self: center;
 }

@@ -1,11 +1,3 @@
-@import url("https://parts-builder.netlify.app/styles/main-style.css");
-@import url("home.css");
-@import url("product-listing.css");
-@import url("cart.css");
-@import url("wish-list.css");
-@import url("login.css");
-@import url("signup.css");
-
 :root{
     --no-padding: 0;
     --no-margin: 0;
@@ -58,4 +50,5 @@ body{
 .footer a{
     color: var(--secondary-color);
 }
+
 

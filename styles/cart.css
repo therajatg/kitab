@@ -24,7 +24,8 @@ body{
     align-self: center;
 }
 
-.wishlist-product-image{
+
+.cart-product-image{
     height: 10rem;
     align-self: center;
     object-fit: cover;
@@ -36,7 +37,12 @@ body{
     margin-left: 1rem;
 }
 
-.button-contained{
+/* .list-horizontal{
+    justify-content: flex-start;
+    width: auto;
+} */
+
+.btn-cart{
     background-color: var(--primary-color);
     margin-left: 49vw;
     padding: 1rem 2rem;
